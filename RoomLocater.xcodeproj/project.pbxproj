@@ -11,6 +11,9 @@
 		CD6D8E7027EE16BF007C0735 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6D8E6F27EE16BF007C0735 /* ContentView.swift */; };
 		CD6D8E7227EE16C0007C0735 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD6D8E7127EE16C0007C0735 /* Assets.xcassets */; };
 		CD6D8E7527EE16C0007C0735 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD6D8E7427EE16C0007C0735 /* Preview Assets.xcassets */; };
+		CD6D8E7D27EE184A007C0735 /* RoomListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6D8E7C27EE184A007C0735 /* RoomListView.swift */; };
+		CD6D8E7F27EE1858007C0735 /* RoomMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6D8E7E27EE1858007C0735 /* RoomMapView.swift */; };
+		CD6D8E8227EE1BE0007C0735 /* RoomList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6D8E8127EE1BE0007C0735 /* RoomList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		CD6D8E6F27EE16BF007C0735 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CD6D8E7127EE16C0007C0735 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD6D8E7427EE16C0007C0735 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CD6D8E7C27EE184A007C0735 /* RoomListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomListView.swift; sourceTree = "<group>"; };
+		CD6D8E7E27EE1858007C0735 /* RoomMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomMapView.swift; sourceTree = "<group>"; };
+		CD6D8E8127EE1BE0007C0735 /* RoomList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +58,8 @@
 			isa = PBXGroup;
 			children = (
 				CD6D8E6D27EE16BF007C0735 /* RoomLocaterApp.swift */,
-				CD6D8E6F27EE16BF007C0735 /* ContentView.swift */,
+				CD6D8E8027EE1BCC007C0735 /* Model */,
+				CD6D8E7B27EE1783007C0735 /* Views */,
 				CD6D8E7127EE16C0007C0735 /* Assets.xcassets */,
 				CD6D8E7327EE16C0007C0735 /* Preview Content */,
 			);
@@ -65,6 +72,24 @@
 				CD6D8E7427EE16C0007C0735 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CD6D8E7B27EE1783007C0735 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CD6D8E6F27EE16BF007C0735 /* ContentView.swift */,
+				CD6D8E7C27EE184A007C0735 /* RoomListView.swift */,
+				CD6D8E7E27EE1858007C0735 /* RoomMapView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CD6D8E8027EE1BCC007C0735 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CD6D8E8127EE1BE0007C0735 /* RoomList.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +162,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD6D8E8227EE1BE0007C0735 /* RoomList.swift in Sources */,
+				CD6D8E7D27EE184A007C0735 /* RoomListView.swift in Sources */,
 				CD6D8E7027EE16BF007C0735 /* ContentView.swift in Sources */,
+				CD6D8E7F27EE1858007C0735 /* RoomMapView.swift in Sources */,
 				CD6D8E6E27EE16BF007C0735 /* RoomLocaterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
