@@ -13,7 +13,10 @@
 		CD6D8E7527EE16C0007C0735 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD6D8E7427EE16C0007C0735 /* Preview Assets.xcassets */; };
 		CD6D8E7D27EE184A007C0735 /* RoomListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6D8E7C27EE184A007C0735 /* RoomListView.swift */; };
 		CD6D8E7F27EE1858007C0735 /* RoomMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6D8E7E27EE1858007C0735 /* RoomMapView.swift */; };
-		CD6D8E8227EE1BE0007C0735 /* RoomList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6D8E8127EE1BE0007C0735 /* RoomList.swift */; };
+		CD6D8E8827EE1D07007C0735 /* rooms.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6D8E8727EE1D07007C0735 /* rooms.swift */; };
+		CD6D8E8A27EE2011007C0735 /* RoomDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6D8E8927EE2011007C0735 /* RoomDetailView.swift */; };
+		CD6D8E8C27EE208D007C0735 /* roomsdatastore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6D8E8B27EE208D007C0735 /* roomsdatastore.swift */; };
+		CD6D8E8E27EF50CD007C0735 /* roomdata.json in Resources */ = {isa = PBXBuildFile; fileRef = CD6D8E8D27EF50CD007C0735 /* roomdata.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,7 +27,10 @@
 		CD6D8E7427EE16C0007C0735 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CD6D8E7C27EE184A007C0735 /* RoomListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomListView.swift; sourceTree = "<group>"; };
 		CD6D8E7E27EE1858007C0735 /* RoomMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomMapView.swift; sourceTree = "<group>"; };
-		CD6D8E8127EE1BE0007C0735 /* RoomList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomList.swift; sourceTree = "<group>"; };
+		CD6D8E8727EE1D07007C0735 /* rooms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rooms.swift; sourceTree = "<group>"; };
+		CD6D8E8927EE2011007C0735 /* RoomDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomDetailView.swift; sourceTree = "<group>"; };
+		CD6D8E8B27EE208D007C0735 /* roomsdatastore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = roomsdatastore.swift; sourceTree = "<group>"; };
+		CD6D8E8D27EF50CD007C0735 /* roomdata.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = roomdata.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +86,7 @@
 				CD6D8E6F27EE16BF007C0735 /* ContentView.swift */,
 				CD6D8E7C27EE184A007C0735 /* RoomListView.swift */,
 				CD6D8E7E27EE1858007C0735 /* RoomMapView.swift */,
+				CD6D8E8927EE2011007C0735 /* RoomDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -87,7 +94,9 @@
 		CD6D8E8027EE1BCC007C0735 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				CD6D8E8127EE1BE0007C0735 /* RoomList.swift */,
+				CD6D8E8727EE1D07007C0735 /* rooms.swift */,
+				CD6D8E8B27EE208D007C0735 /* roomsdatastore.swift */,
+				CD6D8E8D27EF50CD007C0735 /* roomdata.json */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -152,6 +161,7 @@
 			files = (
 				CD6D8E7527EE16C0007C0735 /* Preview Assets.xcassets in Resources */,
 				CD6D8E7227EE16C0007C0735 /* Assets.xcassets in Resources */,
+				CD6D8E8E27EF50CD007C0735 /* roomdata.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,10 +172,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD6D8E8227EE1BE0007C0735 /* RoomList.swift in Sources */,
+				CD6D8E8A27EE2011007C0735 /* RoomDetailView.swift in Sources */,
 				CD6D8E7D27EE184A007C0735 /* RoomListView.swift in Sources */,
 				CD6D8E7027EE16BF007C0735 /* ContentView.swift in Sources */,
+				CD6D8E8C27EE208D007C0735 /* roomsdatastore.swift in Sources */,
 				CD6D8E7F27EE1858007C0735 /* RoomMapView.swift in Sources */,
+				CD6D8E8827EE1D07007C0735 /* rooms.swift in Sources */,
 				CD6D8E6E27EE16BF007C0735 /* RoomLocaterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

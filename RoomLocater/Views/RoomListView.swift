@@ -8,13 +8,36 @@
 import SwiftUI
 
 struct RoomListView: View {
+    
+    @ObservedObject var roomstore: roomsdatastore
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        List(roomstore.rooms) { room in
+            
+            NavigationLink(destination: RoomDetailView (RoomDetail: room)) {
+                
+                
+                
+                
+            }
+            
+            
+            
+            
+            
+        }
+        
+        
+        
+        
+        
+        
     }
 }
 
-struct RoomListView_Previews: PreviewProvider {
-    static var previews: some View {
-        RoomListView()
-    }
-}
+//struct RoomListView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        RoomListView()
+//    }
+//}
