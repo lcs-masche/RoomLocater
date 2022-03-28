@@ -11,7 +11,13 @@ import SwiftUI
 struct RoomLocaterApp: App {
     var body: some Scene {
         WindowGroup {
-            RoomListView(roomstore: RoomsDataStore())
+            TabView {
+                NavigationView {
+                    RoomListView(roomstore: RoomsDataStore())
+                    
+                }
+            }
         }
     }
 }
+    

@@ -1,41 +1,41 @@
 [
     {
-        "roomIdentifier": "Room36",
+        "roomIdentifier": "Room 36",
         "locationDescription": "If you are in front of the libary, turn right and walk all the way to the end until you see a hallway on the right. In that hallway you will find room 36!",
-        "listNumber": "36",
-        "detailPicture": "Room 36",
+        "listNumber": "36B",
+        "detailPicture": "Room36",
         "id": 2
     },
     {
-        "roomIdentifier": "Room35",
+        "roomIdentifier": "Room 35",
         "locationDescription": "It's next to room 36",
         "listNumber": "35",
-        "detailPicture": "Room 35",
+        "detailPicture": "Room35",
         "id": 3
     },
     {
-        "roomIdentifier": "Room4",
+        "roomIdentifier": "Room 4",
         "locationDescription": "Room by the stairs next to library",
         "listNumber": "4",
-        "detailPicture": "Room 4",
+        "detailPicture": "Room4",
         "id": 4
     },
     {
-        "roomIdentifier": "Room34",
+        "roomIdentifier": "Room 34",
         "locationDescription": "It's on Campus",
         "listNumber": "34",
-        "detailPicture": "Room 34",
+        "detailPicture": "Room34",
         "id": 5
     },
     {
-        "roomIdentifier": "Room13",
+        "roomIdentifier": "Room 13",
         "locationDescription": "It's on Campus, u can find it, I belive in you",
         "listNumber": "13",
-        "detailPicture": "Room 13",
+        "detailPicture": "Room13",
         "id": 6
     },
     {
-        "roomIdentifier": "Room27",
+        "roomIdentifier": "Room 27",
         "locationDescription": "It's here, find it",
         "listNumber": "27",
         "detailPicture": "Room 27",

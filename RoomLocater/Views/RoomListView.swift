@@ -22,13 +22,14 @@ struct RoomListView: View {
                     
                     ZStack {
                         
-                        Image(systemName: "circle")
-                            
-                        
+                        Image(systemName: "circle.fill")
+                            .resizable()
+                            .frame(width: 30, height: 30)
+
                         Text(room.listNumber)
                             .font(.subheadline)
                             .fontWeight(.bold)
-                            .foregroundColor(Color.black)
+                            .foregroundColor(Color.white)
                             .multilineTextAlignment(.leading)
                     }
                     
@@ -37,6 +38,7 @@ struct RoomListView: View {
                         .font(.subheadline)
                         .fontWeight(.bold)
                         .foregroundColor(Color.black)
+                        .multilineTextAlignment(.center)
                     
                     
                 }
