@@ -10,12 +10,12 @@ import Foundation
 struct Room: Decodable, Identifiable {
     
     let id: Int
-    let roomIdentifier: String //remember that u can have A or B in the rooms name
+    let roomIdentifier: String
     let locationDescription: String
-    let listNumber: String
+    let listNumber: String //remember that u can have A or B in the rooms name
     let detailPicture: String
     
     
 }
 
-let example = Room(id: 1, roomIdentifier: "Room1", locationDescription: "Turn right when u see me", listNumber: "", detailPicture: "")
+let example = Room(id: 1, roomIdentifier: "Room1", locationDescription: "Turn right when u see me", listNumber: "1", detailPicture: "Room1")

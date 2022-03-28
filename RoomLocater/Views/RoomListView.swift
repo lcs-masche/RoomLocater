@@ -20,12 +20,23 @@ struct RoomListView: View {
                 
                 HStack {
                     
-                    Text(room.listNumber)
-                        .font(.subheadline)
-                        .bold()
+                    ZStack {
+                        
+                        Image(systemName: "circle")
+                            
+                        
+                        Text(room.listNumber)
+                            .font(.subheadline)
+                            .fontWeight(.bold)
+                            .foregroundColor(Color.black)
+                            .multilineTextAlignment(.leading)
+                    }
+                    
                     
                     Text(room.roomIdentifier)
                         .font(.subheadline)
+                        .fontWeight(.bold)
+                        .foregroundColor(Color.black)
                     
                     
                 }
