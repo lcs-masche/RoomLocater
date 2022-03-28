@@ -1,13 +1,9 @@
 [
     {
-        "id": 36,
-        "room": "36",
-        "location_description": "If you are in front of the libary, turn right and walk all the way to the end until you see a hallway on the right. In that hallway you will find room 36!",
-        "listnumber": "36"
-        "detailpicture": "Room36"
-
-    },
-    
-    
+      "roomIdentifier": 36,
+      "locationDescription": "If you are in front of the libary, turn right and walk all the way to the end until you see a hallway on the right. In that hallway you will find room 36!",
+      "listNumber": 36,
+      "detailPicture": "Room36",
+      "id": 2
+    }
 ]
-

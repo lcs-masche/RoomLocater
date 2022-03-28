@@ -1,5 +1,5 @@
 //
-//  roomsdatastore.swift
+//  RoomsDataStore.swift
 //  RoomLocater
 //
 //  Created by Moritz Asche on 2022-03-25.
@@ -7,11 +7,12 @@
 
 import Foundation
 
-class roomsdatastore: ObservableObject {
+class RoomsDataStore: ObservableObject {
     
-    var rooms: [Room]
+    var rooms: [Room] = []
     
     init() {
+        
         //Get a pointer to the file
         let url = Bundle.main.url(forResource: "roomdata", withExtension: "json")!
         
@@ -20,12 +21,12 @@ class roomsdatastore: ObservableObject {
         
         //convert the data from JSON file into the array
         rooms = try! JSONDecoder().decode([Room].self, from: data)
-        print(rooms)
+        
         //sort the list of locations alphabetically by name, in ascending order
         rooms.sort(by: {
-            $0.room_identifier < $1.room_identifier
+            $0.roomIdentifier < $1.roomIdentifier
         })
     }
 }
 
-var teststore = roomsdatastore()
+var teststore = RoomsDataStore()

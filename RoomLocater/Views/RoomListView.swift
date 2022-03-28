@@ -9,7 +9,7 @@ import SwiftUI
 
 struct RoomListView: View {
     
-    @ObservedObject var roomstore: roomsdatastore
+    @ObservedObject var roomstore: RoomsDataStore
     
     var body: some View {
         
@@ -20,11 +20,11 @@ struct RoomListView: View {
                 
                 HStack {
                     
-                    Text(room.listnumber)
+                    Text(room.listNumber)
                         .font(.subheadline)
                         .bold()
                     
-                    Text(room.room_identifier)
+                    Text(room.roomIdentifier)
                         .font(.subheadline)
                     
                     
