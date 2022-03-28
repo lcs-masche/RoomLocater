@@ -13,17 +13,19 @@ class roomsdatastore: ObservableObject {
     
     init() {
         //Get a pointer to the file
-        let url = Bundle.main.url(forResource: "rooms", withExtension: "json")!
+        let url = Bundle.main.url(forResource: "roomdata", withExtension: "json")!
         
         //Load the contents of the JSON file
         let data = try! Data(contentsOf: url)
         
         //convert the data from JSON file into the array
         rooms = try! JSONDecoder().decode([Room].self, from: data)
-        
+        print(rooms)
         //sort the list of locations alphabetically by name, in ascending order
         rooms.sort(by: {
             $0.room_identifier < $1.room_identifier
         })
     }
 }
+
+var teststore = roomsdatastore()
